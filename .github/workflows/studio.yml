@@ -67,7 +67,7 @@ jobs:
           ref: main
       - run: |
           mkdir -p _site/data
-          cp docs/index.html _site/
+          cp docs/index.html docs/privacy.html _site/
           cp data/queue.json data/analytics.json _site/data/ 2>/dev/null || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
