@@ -68,11 +68,11 @@
       "slot": "13:00",
       "kind": "short",
       "topic": "UPI se kharche control nahi hote? Apnaye ye 4 digital budget rules",
-      "status": "ready",
+      "status": "scheduled",
       "source": "youtube-trends",
       "createdAt": "2026-11-01T07:23:23.357Z",
       "tries": 1,
-      "updatedAt": "2026-11-01T08:28:08.955Z",
+      "updatedAt": "2026-11-01T08:28:16.389Z",
       "error": null,
       "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-3.mp4",
       "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-3.jpg",
@@ -86,7 +86,11 @@
         "DigitalKharcha",
         "SimpledFinance"
       ],
-      "producedAt": "2026-11-01T08:28:08.955Z"
+      "producedAt": "2026-11-01T08:28:08.955Z",
+      "videoId": "Ekb9erJYgHU",
+      "url": "https://youtube.com/shorts/Ekb9erJYgHU",
+      "publishAt": "2026-11-02T07:30:00.000Z",
+      "publishedAt": "2026-11-01T08:28:16.389Z"
     },
     {
       "id": "2026-11-02-4",
