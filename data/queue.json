@@ -129,11 +129,11 @@
       "slot": "17:00",
       "kind": "short",
       "topic": "Mutual Funds me SIP shuru karne se pehle ye 5 baatein jaan lo",
-      "status": "ready",
+      "status": "scheduled",
       "source": "youtube-trends",
       "createdAt": "2026-11-01T07:23:23.357Z",
       "tries": 1,
-      "updatedAt": "2026-11-01T08:53:29.748Z",
+      "updatedAt": "2026-11-01T08:53:35.608Z",
       "error": null,
       "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-5.mp4",
       "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-5.jpg",
@@ -147,7 +147,11 @@
         "FinancialEducation",
         "SimpledFinance"
       ],
-      "producedAt": "2026-11-01T08:53:29.748Z"
+      "producedAt": "2026-11-01T08:53:29.748Z",
+      "videoId": "fiDVSZVb8gg",
+      "url": "https://youtube.com/shorts/fiDVSZVb8gg",
+      "publishAt": "2026-11-02T11:30:00.000Z",
+      "publishedAt": "2026-11-01T08:53:35.608Z"
     },
     {
       "id": "2026-11-02-6",
