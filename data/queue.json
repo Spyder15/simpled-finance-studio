@@ -38,11 +38,11 @@
       "slot": "11:00",
       "kind": "long",
       "topic": "Pehli Salary aate hi Credit Card lena chahiye ya SIP shuru karni chahiye?",
-      "status": "ready",
+      "status": "scheduled",
       "source": "youtube-trends",
       "createdAt": "2026-11-01T07:23:23.357Z",
       "tries": 1,
-      "updatedAt": "2026-11-01T08:18:06.971Z",
+      "updatedAt": "2026-11-01T08:18:15.266Z",
       "error": null,
       "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-2.mp4",
       "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-2.jpg",
@@ -56,7 +56,11 @@
         "CreditScoreTips",
         "FinancialDiscipline"
       ],
-      "producedAt": "2026-11-01T08:18:06.971Z"
+      "producedAt": "2026-11-01T08:18:06.971Z",
+      "videoId": "RbnKI5CbdTI",
+      "url": "https://youtube.com/watch?v=RbnKI5CbdTI",
+      "publishAt": "2026-11-02T05:30:00.000Z",
+      "publishedAt": "2026-11-01T08:18:15.266Z"
     },
     {
       "id": "2026-11-02-3",
