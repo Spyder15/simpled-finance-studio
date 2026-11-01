@@ -129,9 +129,25 @@
       "slot": "17:00",
       "kind": "short",
       "topic": "Mutual Funds me SIP shuru karne se pehle ye 5 baatein jaan lo",
-      "status": "planned",
+      "status": "ready",
       "source": "youtube-trends",
-      "createdAt": "2026-11-01T07:23:23.357Z"
+      "createdAt": "2026-11-01T07:23:23.357Z",
+      "tries": 1,
+      "updatedAt": "2026-11-01T08:53:29.748Z",
+      "error": null,
+      "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-5.mp4",
+      "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-5.jpg",
+      "title": "SIP Shuru Karne Se Pehle Ye 5 Baatein Jaan Lo!",
+      "description": "Mutual funds me SIP shuru karne se pehle ye 5 zaroori baatein samajhna bahut zaroori hai. Rahul aur Dadaji se sikhiye sahi tarika aur compounding ka asar.",
+      "tags": [
+        "MutualFunds",
+        "SIPInvestment",
+        "PersonalFinanceHindi",
+        "InvestingTips",
+        "FinancialEducation",
+        "SimpledFinance"
+      ],
+      "producedAt": "2026-11-01T08:53:29.748Z"
     },
     {
       "id": "2026-11-02-6",
