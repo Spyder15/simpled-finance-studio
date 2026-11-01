@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-01T15:35:11.745Z",
+  "updatedAt": "2026-11-01T18:18:39.675Z",
   "channel": {
     "title": "FINANCE SIMPLIFIED",
     "subscribers": 1,
     "subscribersHidden": false,
-    "totalViews": 0,
+    "totalViews": 12,
     "videoCount": 4
   },
   "today": {
-    "views": 0,
+    "views": 12,
     "subscribers": 0
   },
   "totals": {
@@ -678,7 +678,7 @@
       "publishedAt": "2026-11-01T06:48:40Z",
       "privacy": "public",
       "scheduledFor": null,
-      "views": 17,
+      "views": 19,
       "likes": 1,
       "comments": 0,
       "seconds": 64,
