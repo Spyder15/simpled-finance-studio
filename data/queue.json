@@ -159,9 +159,26 @@
       "slot": "19:00",
       "kind": "long",
       "topic": "Kya 15000 ki salary me bhi ghar khareedne ke liye saving ho sakti hai?",
-      "status": "planned",
+      "status": "ready",
       "source": "youtube-trends",
-      "createdAt": "2026-11-01T07:23:23.357Z"
+      "createdAt": "2026-11-01T07:23:23.357Z",
+      "tries": 1,
+      "updatedAt": "2026-11-01T09:11:17.469Z",
+      "error": null,
+      "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-6.mp4",
+      "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-6.jpg",
+      "title": "पंद्रह हज़ार में आशियाना? चौंका देने वाला सच",
+      "description": "जानिए क्या पंद्रह हज़ार रुपए महीने की सैलरी में भी अपना घर खरीदने के लिए बचत शुरू की जा सकती है या नहीं। राहुल और दादाजी के साथ समझें बजट का गणित।",
+      "tags": [
+        "ghar ki saving",
+        "15000 salary budget",
+        "personal finance hindi",
+        "money management",
+        "middle class savings",
+        "simpled finance",
+        "financial literacy"
+      ],
+      "producedAt": "2026-11-01T09:11:17.469Z"
     }
   ]
 }
