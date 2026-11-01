@@ -1,0 +1,77 @@
+name: Studio
+
+on:
+  schedule:
+    - cron: '30 15 * * *'   # 21:00 IST - plan tomorrow
+    - cron: '30 20 * * *'   # 02:00 IST - produce + publish
+    - cron: '15 */3 * * *'  # every 3h - retry pending work + refresh analytics
+  workflow_dispatch:
+    inputs:
+      task:
+        description: Task to run
+        type: choice
+        options: [tick, plan, analytics]
+        default: tick
+      date:
+        description: Optional date YYYY-MM-DD
+        required: false
+
+concurrency:
+  group: studio
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TASK: ${{ github.event.inputs.task || (github.event.schedule == '30 15 * * *' && 'plan') || 'tick' }}
+      DATE: ${{ github.event.inputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: System deps
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y fonts-noto-core ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2
+          pip install edge-tts
+      - run: npm ci
+      - name: Run studio task
+        run: node studio/cli.js "$TASK" $DATE
+
+  pages:
+    needs: run
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: |
+          mkdir -p _site/data
+          cp docs/index.html _site/
+          cp data/queue.json data/analytics.json _site/data/ 2>/dev/null || true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SimpledFinance Studio</title>
+<style>
+  :root{--bg:#0b1030;--card:#121a4a;--line:#20296b;--gold:#ffc233;--mut:#9aa4d6}
+  *{box-sizing:border-box} body{font-family:-apple-system,Segoe UI,Arial,sans-serif;background:var(--bg);color:#eef;margin:0;padding:20px;max-width:1200px;margin:auto}
+  h1{margin:0} h2{margin:30px 0 12px;color:var(--gold);font-size:20px} .sub{color:var(--mut);margin:4px 0 18px;font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  .card .n{font-size:30px;font-weight:800} .card .l{color:var(--mut);font-size:13px;margin-top:4px}
+  .up{color:#7df0c3} table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden}
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;vertical-align:top}
+  th{background:#18215c;color:#bcc5ff;cursor:pointer;white-space:nowrap} .wrap{overflow-x:auto}
+  .tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;color:#111;white-space:nowrap}
+  .planned{background:#9aa4d6}.producing{background:#ff9f1c}.ready{background:#7df0c3}.scheduled,.private{background:#4dabff}.published,.public{background:#38d39f}.failed{background:#ff5b5b}.unlisted{background:#c9a0ff}
+  .bar{height:12px;background:#0b1030;border-radius:10px;overflow:hidden;margin:6px 0 2px} .bar>i{display:block;height:100%;background:linear-gradient(90deg,#ff9f1c,#ffd166)}
+  .req{margin-bottom:14px} .req b{font-size:13px} .req small{color:var(--mut)}
+  .chart{display:flex;align-items:flex-end;gap:3px;height:150px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .chart div{flex:1;background:var(--gold);border-radius:3px 3px 0 0;min-height:2px} a{color:#7dc4ff}
+  ul{padding-left:18px;color:#cfd5ff;font-size:13px;line-height:1.7} .warn{color:#ff9a9a;font-size:12px}
+</style>
+</head>
+<body>
+<h1>SimpledFinance Studio</h1>
+<div class="sub" id="meta">loading...</div>
+
+<div class="grid" id="cards"></div>
+
+<h2>Pichhle 90 din ke views</h2>
+<div class="chart" id="chart"></div>
+<div class="sub" id="chartNote"></div>
+
+<h2>Monetization (YPP) — kitna baaki hai</h2>
+<div class="grid" id="ypp"></div>
+<div class="card" style="margin-top:12px"><b>Pending / dhyan dene wali baatein</b><ul id="manual"></ul></div>
+
+<h2>Har video ke views</h2>
+<div class="wrap"><table id="videos"></table></div>
+
+<h2>Aane wale / chal rahe videos (queue)</h2>
+<div class="wrap"><table id="queue"></table></div>
+<div class="sub">Plan roz 9 PM IST, videos 2 AM IST par bante hain, upload 9 AM se 7 PM ke slots mein. Analytics har 3 ghante mein update hota hai.</div>
+<div class="warn" id="warn"></div>
+
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=n=>(n??0).toLocaleString('en-IN');
+const get=async u=>{try{const r=await fetch(u+'?t='+Date.now());return r.ok?await r.json():null}catch(e){return null}};
+let VIDEOS=[],SORT='publishedAt',DIR=-1;
+function renderVideos(){
+  const rows=[...VIDEOS].sort((a,b)=>DIR*((a[SORT]>b[SORT])-(a[SORT]<b[SORT])));
+  const th=(k,l)=>`<th onclick="SORT='${k}';DIR=SORT==='${k}'&&DIR===-1?1:-1;renderVideos()">${l}</th>`;
+  document.getElementById('videos').innerHTML=`<tr>${th('title','Video')}${th('type','Type')}${th('privacy','Status')}${th('views','Views')}${th('likes','Likes')}${th('comments','Comments')}${th('avgViewPercent','Avg % dekha')}${th('publishedAt','Date')}</tr>`+
+  (rows.map(v=>`<tr><td><a href="https://youtube.com/${v.type==='short'?'shorts/':'watch?v='}${v.id}" target="_blank">${esc(v.title)}</a></td><td>${v.type}</td><td><span class="tag ${v.privacy}">${v.privacy}${v.scheduledFor?' (schedule)':''}</span></td><td><b>${fmt(v.views)}</b></td><td>${fmt(v.likes)}</td><td>${fmt(v.comments)}</td><td>${v.avgViewPercent??'-'}</td><td>${new Date(v.publishedAt).toLocaleDateString('en-IN')}</td></tr>`).join('')||'<tr><td>Abhi koi video nahi</td></tr>');
+}
+(async()=>{
+  const [a,q]=await Promise.all([get('data/analytics.json'),get('data/queue.json')]);
+  if(a){
+    document.getElementById('meta').textContent=`${a.channel.title} | last update: ${new Date(a.updatedAt).toLocaleString('en-IN')}`;
+    const c=a.channel,t=a.today,s=a.totals;
+    const cards=[[fmt(t.views),'Aaj ke views'],[fmt(c.totalViews),'Total views (sab video)'],[fmt(c.subscribers)+(c.subscribersHidden?' (hidden)':''),'Subscribers'],[(t.subscribers>=0?'+':'')+t.subscribers,'Aaj ke naye subscribers'],[fmt(c.videoCount),'Total videos'],[fmt(s.views90),'Views (90 din)'],[s.hours365+' h','Watch hours (365 din)'],[fmt(s.shorts90),'Shorts views (90 din)']];
+    document.getElementById('cards').innerHTML=cards.map(([n,l])=>`<div class="card"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+    const d=a.daily||[],max=Math.max(1,...d.map(x=>x.views));
+    document.getElementById('chart').innerHTML=d.map(x=>`<div title="${x.date}: ${x.views} views" style="height:${Math.max(2,x.views/max*100)}%"></div>`).join('');
+    document.getElementById('chartNote').textContent='YouTube Analytics ka data 1-2 din late aata hai; "Aaj ke views" hamare apne snapshots se nikalte hain.';
+    document.getElementById('ypp').innerHTML=a.monetization.tiers.map(t=>`<div class="card"><b>${t.name}</b><div style="margin-top:12px">${t.requirements.map(r=>`<div class="req"><b>${esc(r.label)}</b><div class="bar"><i style="width:${r.percent}%"></i></div><small>${esc(r.current)} / ${esc(r.goal)} (${r.percent}%)</small></div>`).join('')}</div></div>`).join('');
+    document.getElementById('manual').innerHTML=a.monetization.manual.map(m=>`<li>${esc(m)}</li>`).join('');
+    VIDEOS=a.videos;renderVideos();
+    if(a.errors&&a.errors.length)document.getElementById('warn').textContent='API warnings: '+a.errors.join(' | ');
+  }else document.getElementById('meta').textContent='Analytics data abhi nahi aaya. Pehla run hone ke baad dikhega.';
+  const items=(q?.items||[]).filter(i=>i.status!=='removed').sort((x,y)=>(y.date+y.slot).localeCompare(x.date+x.slot)).slice(0,40);
+  document.getElementById('queue').innerHTML='<tr><th>Date</th><th>Time</th><th>Type</th><th>Topic / title</th><th>Status</th><th>Link</th></tr>'+items.map(i=>`<tr><td>${i.date}</td><td>${i.slot}</td><td>${i.kind}</td><td>${esc(i.title||i.topic)}<div class="warn">${esc(i.error||'')}</div></td><td><span class="tag ${i.status}">${i.status}</span></td><td>${i.url?`<a href="${i.url}" target="_blank">YouTube</a>`:''}</td></tr>`).join('');
+})();
+</script>
+</body>
+</html>

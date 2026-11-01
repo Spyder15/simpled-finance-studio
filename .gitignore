@@ -1,0 +1,6 @@
+node_modules
+out
+public/jobs
+data/tmp
+.env
+*.log

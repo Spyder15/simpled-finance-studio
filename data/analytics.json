@@ -1,0 +1,663 @@
+{
+  "updatedAt": "2026-11-01T07:47:15.048Z",
+  "channel": {
+    "title": "FINANCE SIMPLIFIED",
+    "subscribers": 1,
+    "subscribersHidden": false,
+    "totalViews": 0,
+    "videoCount": 3
+  },
+  "today": {
+    "views": 0,
+    "subscribers": 0
+  },
+  "totals": {
+    "hours365": 0,
+    "shorts90": 0,
+    "publicUploads90": 3,
+    "views365": 0,
+    "views90": 0,
+    "subsGained365": 0
+  },
+  "daily": [
+    {
+      "date": "2026-08-04",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-05",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-06",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-07",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-08",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-09",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-10",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-11",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-12",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-13",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-14",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-15",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-16",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-17",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-18",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-19",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-20",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-21",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-22",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-23",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-24",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-25",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-26",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-27",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-28",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-29",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-30",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-08-31",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-01",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-02",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-03",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-04",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-05",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-06",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-07",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-08",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-09",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-10",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-11",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-12",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-13",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-14",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-15",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-16",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-17",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-18",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-19",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-20",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-21",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-22",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-23",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-24",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-25",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-26",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-27",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-28",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-29",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-09-30",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-01",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-02",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-03",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-04",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-05",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-06",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-07",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-08",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-09",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-10",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-11",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-12",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-13",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-14",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-15",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-16",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-17",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-18",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-19",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-20",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-21",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-22",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-23",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-24",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-25",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-26",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-27",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-28",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    },
+    {
+      "date": "2026-10-29",
+      "views": 0,
+      "minutes": 0,
+      "subs": 0
+    }
+  ],
+  "videos": [
+    {
+      "id": "7vdCTsM5rAE",
+      "title": "पॉकेट मनी से अमीर बनने के पाँच असरदार तरीके #shorts",
+      "publishedAt": "2026-11-01T07:26:39Z",
+      "privacy": "private",
+      "scheduledFor": "2026-11-02T03:30:00Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 0,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
+    {
+      "id": "dhOUiOC_WMA",
+      "title": "Credit Card Minimum Due Ka Debt Trap #shorts",
+      "publishedAt": "2026-11-01T07:07:45Z",
+      "privacy": "public",
+      "scheduledFor": null,
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 64,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
+    {
+      "id": "bnnCeXcp1Xc",
+      "title": "How $100 Can Build a $200,000 Business 🥚",
+      "publishedAt": "2026-11-01T06:59:51Z",
+      "privacy": "public",
+      "scheduledFor": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 105,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
+    {
+      "id": "mbY_aX963hU",
+      "title": "Credit Card ka Minimum Due Trap 😱 | ₹50,000 Bill Ka Sach #Shorts",
+      "publishedAt": "2026-11-01T06:48:40Z",
+      "privacy": "public",
+      "scheduledFor": null,
+      "views": 6,
+      "likes": 1,
+      "comments": 0,
+      "seconds": 64,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    }
+  ],
+  "monetization": {
+    "tiers": [
+      {
+        "name": "YPP Tier 1 (fan funding, memberships)",
+        "requirements": [
+          {
+            "label": "Subscribers",
+            "current": 1,
+            "goal": 500,
+            "percent": 0.2
+          },
+          {
+            "label": "Public uploads (90 days)",
+            "current": 3,
+            "goal": 3,
+            "percent": 100
+          },
+          {
+            "label": "Watch hours (365 days) YA Shorts views (90 days)",
+            "current": "0 h / 0 views",
+            "goal": "3,000 h ya 30 lakh Shorts views",
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "name": "YPP Tier 2 (ads revenue)",
+        "requirements": [
+          {
+            "label": "Subscribers",
+            "current": 1,
+            "goal": 1000,
+            "percent": 0.1
+          },
+          {
+            "label": "Watch hours (365 days) YA Shorts views (90 days)",
+            "current": "0 h / 0 views",
+            "goal": "4,000 h ya 1 crore Shorts views",
+            "percent": 0
+          }
+        ]
+      }
+    ],
+    "manual": [
+      "Google AdSense account bana ke channel se link karo (YPP unlock hone par)",
+      "2-Step Verification ON hona chahiye",
+      "Koi active Community Guidelines strike nahi honi chahiye",
+      "Reused / mass-produced content policy: har video ki script alag aur original rakho (template jaisi videos par demonetization ho sakta hai)"
+    ]
+  },
+  "errors": []
+}

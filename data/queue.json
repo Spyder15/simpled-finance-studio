@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "2026-11-02-1",
+      "date": "2026-11-02",
+      "slot": "09:00",
+      "kind": "short",
+      "topic": "College Students ke liye Pocket Money se Ameer banne ke 5 aasan tarike",
+      "status": "scheduled",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z",
+      "tries": 1,
+      "updatedAt": "2026-11-01T07:27:03.985Z",
+      "error": null,
+      "title": "पॉकेट मनी से अमीर बनने के पाँच असरदार तरीके",
+      "script": "written",
+      "video": "/Users/spyder/Desktop/yt ved/finance-3d-short/out/jobs/2026-11-02-1.mp4",
+      "thumb": "/Users/spyder/Desktop/yt ved/finance-3d-short/out/jobs/2026-11-02-1.jpg",
+      "description": "कॉलेज स्टूडेंट्स के लिए पॉकेट मनी को सही से मैनेज करने और अमीर बनने की राह पर चलने के पाँच आसान और व्यावहारिक तरीके राहुल और दादाजी की जुबानी।",
+      "tags": [
+        "pocket money",
+        "college students",
+        "finance in hindi",
+        "smart savings",
+        "money habits",
+        "financial literacy",
+        "simpled finance"
+      ],
+      "producedAt": "2026-11-01T07:26:38.647Z",
+      "videoId": "7vdCTsM5rAE",
+      "url": "https://youtube.com/shorts/7vdCTsM5rAE",
+      "publishAt": "2026-11-02T03:30:00.000Z",
+      "publishedAt": "2026-11-01T07:27:03.983Z"
+    },
+    {
+      "id": "2026-11-02-2",
+      "date": "2026-11-02",
+      "slot": "11:00",
+      "kind": "long",
+      "topic": "Pehli Salary aate hi Credit Card lena chahiye ya SIP shuru karni chahiye?",
+      "status": "planned",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z"
+    },
+    {
+      "id": "2026-11-02-3",
+      "date": "2026-11-02",
+      "slot": "13:00",
+      "kind": "short",
+      "topic": "UPI se kharche control nahi hote? Apnaye ye 4 digital budget rules",
+      "status": "planned",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z"
+    },
+    {
+      "id": "2026-11-02-4",
+      "date": "2026-11-02",
+      "slot": "15:00",
+      "kind": "long",
+      "topic": "Emergency Fund kya hota hai? Jane 20 ki umar me ye kyu hai zaroori",
+      "status": "planned",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z"
+    },
+    {
+      "id": "2026-11-02-5",
+      "date": "2026-11-02",
+      "slot": "17:00",
+      "kind": "short",
+      "topic": "Mutual Funds me SIP shuru karne se pehle ye 5 baatein jaan lo",
+      "status": "planned",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z"
+    },
+    {
+      "id": "2026-11-02-6",
+      "date": "2026-11-02",
+      "slot": "19:00",
+      "kind": "long",
+      "topic": "Kya 15000 ki salary me bhi ghar khareedne ke liye saving ho sakti hai?",
+      "status": "planned",
+      "source": "youtube-trends",
+      "createdAt": "2026-11-01T07:23:23.357Z"
+    }
+  ]
+}
