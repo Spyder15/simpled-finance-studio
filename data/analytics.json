@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-01T09:17:19.486Z",
+  "updatedAt": "2026-11-01T12:21:26.210Z",
   "channel": {
     "title": "FINANCE SIMPLIFIED",
     "subscribers": 1,
     "subscribersHidden": false,
     "totalViews": 0,
-    "videoCount": 3
+    "videoCount": 4
   },
   "today": {
     "views": 0,
@@ -14,7 +14,7 @@
   "totals": {
     "hours365": 0,
     "shorts90": 0,
-    "publicUploads90": 3,
+    "publicUploads90": 4,
     "views365": 0,
     "views90": 0,
     "subsGained365": 0
@@ -545,6 +545,22 @@
   ],
   "videos": [
     {
+      "id": "7vdCTsM5rAE",
+      "title": "पॉकेट मनी से अमीर बनने के पाँच असरदार तरीके #shorts",
+      "publishedAt": "2026-11-01T10:07:03Z",
+      "privacy": "public",
+      "scheduledFor": null,
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 62,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
+    {
       "id": "I-RDA_b0nhg",
       "title": "पंद्रह हज़ार में आशियाना? चौंका देने वाला सच",
       "publishedAt": "2026-11-01T09:11:19Z",
@@ -625,28 +641,12 @@
       "subsGained": null
     },
     {
-      "id": "7vdCTsM5rAE",
-      "title": "पॉकेट मनी से अमीर बनने के पाँच असरदार तरीके #shorts",
-      "publishedAt": "2026-11-01T07:26:39Z",
-      "privacy": "private",
-      "scheduledFor": "2026-11-02T03:30:00Z",
-      "views": 1,
-      "likes": 0,
-      "comments": 0,
-      "seconds": 62,
-      "type": "short",
-      "watchMinutes": null,
-      "avgViewSeconds": null,
-      "avgViewPercent": null,
-      "subsGained": null
-    },
-    {
       "id": "dhOUiOC_WMA",
       "title": "Credit Card Minimum Due Ka Debt Trap #shorts",
       "publishedAt": "2026-11-01T07:07:45Z",
       "privacy": "public",
       "scheduledFor": null,
-      "views": 2,
+      "views": 3,
       "likes": 0,
       "comments": 0,
       "seconds": 64,
@@ -678,8 +678,8 @@
       "publishedAt": "2026-11-01T06:48:40Z",
       "privacy": "public",
       "scheduledFor": null,
-      "views": 0,
-      "likes": 0,
+      "views": 12,
+      "likes": 1,
       "comments": 0,
       "seconds": 64,
       "type": "short",
@@ -702,7 +702,7 @@
           },
           {
             "label": "Public uploads (90 days)",
-            "current": 3,
+            "current": 4,
             "goal": 3,
             "percent": 100
           },
