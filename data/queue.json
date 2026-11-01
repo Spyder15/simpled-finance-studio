@@ -98,9 +98,26 @@
       "slot": "15:00",
       "kind": "long",
       "topic": "Emergency Fund kya hota hai? Jane 20 ki umar me ye kyu hai zaroori",
-      "status": "planned",
+      "status": "ready",
       "source": "youtube-trends",
-      "createdAt": "2026-11-01T07:23:23.357Z"
+      "createdAt": "2026-11-01T07:23:23.357Z",
+      "tries": 1,
+      "updatedAt": "2026-11-01T08:44:31.289Z",
+      "error": null,
+      "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-4.mp4",
+      "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-4.jpg",
+      "title": "बीस की उम्र में इमरजेंसी फंड क्यों जरूरी है",
+      "description": "राहुल और दादाजी के साथ जानिए इमरजेंसी फंड का असली मतलब और बीस की उम्र में इसे बनाना क्यों है सबसे जरूरी।",
+      "tags": [
+        "emergency fund",
+        "personal finance",
+        "hindi finance",
+        "rahul dada",
+        "saving tips",
+        "money management",
+        "youth finance"
+      ],
+      "producedAt": "2026-11-01T08:44:31.289Z"
     },
     {
       "id": "2026-11-02-5",
