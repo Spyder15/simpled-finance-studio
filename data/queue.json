@@ -38,9 +38,25 @@
       "slot": "11:00",
       "kind": "long",
       "topic": "Pehli Salary aate hi Credit Card lena chahiye ya SIP shuru karni chahiye?",
-      "status": "planned",
+      "status": "ready",
       "source": "youtube-trends",
-      "createdAt": "2026-11-01T07:23:23.357Z"
+      "createdAt": "2026-11-01T07:23:23.357Z",
+      "tries": 1,
+      "updatedAt": "2026-11-01T08:18:06.971Z",
+      "error": null,
+      "video": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-2.mp4",
+      "thumb": "/home/runner/work/simpled-finance-studio/simpled-finance-studio/out/jobs/2026-11-02-2.jpg",
+      "title": "Pehli Salary: Credit Card Banwaye ya SIP Karein Shuru?",
+      "description": "Pehli salary aane par aksar log confuse ho jaate hain ki pehle shopping ke liye credit card lein ya investment ke liye SIP karein. Rahul aur Dadaji se samjhiye sahi financial planning ka secret.",
+      "tags": [
+        "PehliSalary",
+        "CreditCardVsSIP",
+        "PersonalFinanceHindi",
+        "MutualFundSIP",
+        "CreditScoreTips",
+        "FinancialDiscipline"
+      ],
+      "producedAt": "2026-11-01T08:18:06.971Z"
     },
     {
       "id": "2026-11-02-3",
