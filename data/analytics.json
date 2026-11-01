@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T09:11:24.882Z",
+  "updatedAt": "2026-11-01T09:17:19.486Z",
   "channel": {
     "title": "FINANCE SIMPLIFIED",
     "subscribers": 1,
@@ -544,6 +544,22 @@
     }
   ],
   "videos": [
+    {
+      "id": "I-RDA_b0nhg",
+      "title": "पंद्रह हज़ार में आशियाना? चौंका देने वाला सच",
+      "publishedAt": "2026-11-01T09:11:19Z",
+      "privacy": "private",
+      "scheduledFor": "2026-11-02T13:30:00Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 151,
+      "type": "short",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
     {
       "id": "fiDVSZVb8gg",
       "title": "SIP Shuru Karne Se Pehle Ye 5 Baatein Jaan Lo! #shorts",
