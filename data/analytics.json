@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:17:34.591Z",
+  "updatedAt": "2026-11-02T00:40:16.450Z",
   "channel": {
     "title": "FINANCE SIMPLIFIED",
     "subscribers": 1,
@@ -20,12 +20,6 @@
     "subsGained365": 0
   },
   "daily": [
-    {
-      "date": "2026-08-04",
-      "views": 0,
-      "minutes": 0,
-      "subs": 0
-    },
     {
       "date": "2026-08-05",
       "views": 0,
@@ -684,7 +678,7 @@
       "publishedAt": "2026-11-01T06:48:40Z",
       "privacy": "public",
       "scheduledFor": null,
-      "views": 31,
+      "views": 34,
       "likes": 1,
       "comments": 0,
       "seconds": 64,
