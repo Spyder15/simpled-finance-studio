@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-02T03:22:05.068Z",
+  "updatedAt": "2026-11-02T06:33:36.870Z",
   "channel": {
     "title": "FINANCE SIMPLIFIED",
     "subscribers": 1,
     "subscribersHidden": false,
-    "totalViews": 12,
-    "videoCount": 4
+    "totalViews": 38,
+    "videoCount": 5
   },
   "today": {
-    "views": 0,
+    "views": 26,
     "subscribers": 0
   },
   "totals": {
     "hours365": 0,
     "shorts90": 0,
-    "publicUploads90": 4,
+    "publicUploads90": 5,
     "views365": 0,
     "views90": 0,
     "subsGained365": 0
@@ -545,6 +545,22 @@
   ],
   "videos": [
     {
+      "id": "RbnKI5CbdTI",
+      "title": "Pehli Salary: Credit Card Banwaye ya SIP Karein Shuru?",
+      "publishedAt": "2026-11-02T05:30:14Z",
+      "privacy": "public",
+      "scheduledFor": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "seconds": 182,
+      "type": "long",
+      "watchMinutes": null,
+      "avgViewSeconds": null,
+      "avgViewPercent": null,
+      "subsGained": null
+    },
+    {
       "id": "7vdCTsM5rAE",
       "title": "पॉकेट मनी से अमीर बनने के पाँच असरदार तरीके #shorts",
       "publishedAt": "2026-11-01T10:07:03Z",
@@ -625,22 +641,6 @@
       "subsGained": null
     },
     {
-      "id": "RbnKI5CbdTI",
-      "title": "Pehli Salary: Credit Card Banwaye ya SIP Karein Shuru?",
-      "publishedAt": "2026-11-01T08:18:08Z",
-      "privacy": "private",
-      "scheduledFor": "2026-11-02T05:30:00Z",
-      "views": 0,
-      "likes": 0,
-      "comments": 0,
-      "seconds": 182,
-      "type": "long",
-      "watchMinutes": null,
-      "avgViewSeconds": null,
-      "avgViewPercent": null,
-      "subsGained": null
-    },
-    {
       "id": "dhOUiOC_WMA",
       "title": "Credit Card Minimum Due Ka Debt Trap #shorts",
       "publishedAt": "2026-11-01T07:07:45Z",
@@ -678,7 +678,7 @@
       "publishedAt": "2026-11-01T06:48:40Z",
       "privacy": "public",
       "scheduledFor": null,
-      "views": 34,
+      "views": 36,
       "likes": 1,
       "comments": 0,
       "seconds": 64,
@@ -702,7 +702,7 @@
           },
           {
             "label": "Public uploads (90 days)",
-            "current": 4,
+            "current": 5,
             "goal": 3,
             "percent": 100
           },
